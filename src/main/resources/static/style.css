@@ -1,0 +1,65 @@
+body{
+    background-color: lightsteelblue;
+}
+
+.center-text{
+    text-align: center;
+}
+
+.sub-image-container{
+    width: 100%;
+}
+
+.float-left{
+    width: 50%;
+    float: left;
+}
+.float-right{
+    width: 50%;
+    float: right;
+}
+
+.fancy-text{
+    font-family: 'Press Start 2P', cursive;
+}
+
+.image-container{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-container a{
+    width: 40%;
+    position: relative;
+    text-align: center;
+}
+
+.image-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-weight: bold;
+}
+
+.image-container img{
+    width: 100%;
+    padding: 10px;
+    height: auto;
+}
+
+.text-body{
+    width: 80%;
+    height: 500px;
+    background-color: azure;
+    margin: 0 auto;
+}
+
+form{
+    margin-left: 10%;
+    margin-top: 5%;
+}
