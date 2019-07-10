@@ -1,37 +1,29 @@
 <!DOCTYPE html>
 <html lang="en" xmlns:th="www.thymeleaf.org">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>My Hobbies</title>
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap" rel="stylesheet">
-</head>
+<head th:insert="base :: head"></head>
 <body>
 <div th:insert="base :: nav-bar"></div>
 <div class="sub-image-container center-text">
     <img class="center" src="https://res.cloudinary.com/dmfaehjot/image/upload/v1562699934/hobby%20assignment/df4895a9daf78258b5f218a4078b209c68bd945ac594f514c8d37ce4c55cb6df_aqahs4.gif" alt="Games Gif"/>
 </div>
-<div class="text-body">
-    <h2 class="center-text">Games</h2>
+<div class="text-body center-text">
+    <h2>Games</h2>
     <br/>
-    <div class="float-left ">
-        <h3 class="center-text">My Favorite Games</h3>
+    <div class="float-left">
         <ul>
+            <li class="list-title">My Favorite Games</li>
             <li>Skyrim</li>
             <li>The Last of Us</li>
             <li>The Witcher 3</li>
             <li>Tom Clancy's Rainbow 6 Seige</li>
         </ul>
     </div>
-    <div class="float-right center-text">
+    <div class="float-right">
         <h3>Hours Played</h3>
         <p>1000000000000 Hours to Date</p>
     </div>
 </div>
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<div th:insert="base :: footer"></div>
+<div th:insert="base :: javascript"></div>
 </body>
 </html>
