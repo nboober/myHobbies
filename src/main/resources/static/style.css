@@ -7,6 +7,20 @@ body{
     font-size: 30px;
 }
 
+.border-radius{
+    border-radius: 138px 0px 138px 0px;
+    -moz-border-radius: 138px 0px 138px 0px;
+    -webkit-border-radius: 138px 0px 138px 0px;
+    border: 0px solid #000000;
+}
+
+.border-radius-circle{
+    border-radius: 200px 200px 200px 200px;
+    -moz-border-radius: 200px 200px 200px 200px;
+    -webkit-border-radius: 200px 200px 200px 200px;
+    border: 0px solid #000000;
+}
+
 ul{
     list-style-type: none;
 }
@@ -67,7 +81,6 @@ ul{
     color: white;
     font-weight: bold;
     font-size: 4vw;
-    z-index: 10;
 }
 
 .image-container img{
@@ -80,6 +93,10 @@ ul{
     padding: 10px;
     height: auto;
     opacity: 0.3;
+    border-radius: 0px 0px 114px 0px;
+    -moz-border-radius: 0px 0px 114px 0px;
+    -webkit-border-radius: 0px 0px 114px 0px;
+    border: 0px solid #000000;
 }
 
 .text-body{
