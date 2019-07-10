@@ -59,7 +59,7 @@ ul{
 
 @media only screen and (max-width: 1499px){
     .image-container a{
-        width: 40%;
+        width: 45%;
         position: relative;
         text-align: center;
     }
@@ -67,7 +67,7 @@ ul{
 
 @media only screen and (min-width: 1500px) {
     .image-container a{
-        width: 35%;
+        width: 34%;
         position: relative;
         text-align: center;
     }
@@ -115,8 +115,4 @@ footer{
     position:absolute;
     bottom:0;
     width:100%;
-}
-
-.footer-content{
-
 }

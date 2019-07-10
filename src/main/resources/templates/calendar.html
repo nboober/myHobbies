@@ -36,6 +36,7 @@
             border-radius: 8px;
             overflow: hidden;
             margin: 0 auto;
+            float: left;
         }
 
         .calendar__picture {
@@ -108,6 +109,30 @@
              cursor: pointer;
          }
         }
+
+        * {box-sizing: border-box}
+
+        .main-container{
+            width: 50%;
+            float: right;
+
+        }
+        .container {
+            background-color: #ddd;
+            padding-left: 0px !important;
+        }
+
+        .skills {
+            text-align: right;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            color: white;
+        }
+
+        .games {width: 50%; background-color: #4CAF50;}
+        .movies {width: 10%; background-color: #2196F3;}
+        .sports {width: 30%; background-color: #f44336;}
+        .music {width: 10%; background-color: #808080;}
     </style>
 </head>
 <body>
@@ -161,6 +186,29 @@
         <div class="calendar__number">29</div>
         <div class="calendar__number">30</div>
     </div>
+</div>
+<div class="main-container">
+<h1>Time Spent</h1>
+
+<p>Games</p>
+<div class="container">
+    <div class="skills games">50%</div>
+</div>
+
+<p>Movies</p>
+<div class="container">
+    <div class="skills movies">10%</div>
+</div>
+
+<p>Sports</p>
+<div class="container">
+    <div class="skills sports">30%</div>
+</div>
+
+<p>Music</p>
+<div class="container">
+    <div class="skills music">10%</div>
+</div>
 </div>
 <div th:insert="base :: footer"></div>
 <div th:insert="base :: javascript"></div>
